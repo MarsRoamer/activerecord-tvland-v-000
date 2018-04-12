@@ -1,8 +1,8 @@
 class ChangeCatchphrase < ActiveRecord::Migration
 
-  def change 
+  def change
     change_table :characters do |t|
-      t.rename :catch_phrase, :catchphrase 
+      t.rename :catch_phrase, :catchphrase
     end
-  end 
+  end
 end
